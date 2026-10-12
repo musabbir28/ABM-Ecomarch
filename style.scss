@@ -1,0 +1,120 @@
+$primaryBg: rgb(230, 240, 249);
+$seconderyCo:  rgb(255, 255, 255);
+$textCol:rgb(0, 86, 163);
+$secondCo: rgba(0, 0, 0, 0.945);
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
+.upperNavigationbar {
+
+        display: flex;
+        background-color: $primaryBg;
+        font-weight: bold;
+        font-family: sans-serif;
+        justify-content: space-around;
+        height: 60px;
+        align-items: center;
+
+        .Logo {
+           text-decoration: none; 
+           font-weight: bold;
+           color: $textCol;
+        }
+        .Search-box{
+         justify-content: center;
+        .search-box{
+         padding: 10px;
+         width: 300px;
+         border-radius: 10px;
+         outline: none;
+        }
+        }
+        .cart_icon{
+         align-items: center;
+         a{
+            text-decoration: none;
+            color: $textCol;
+            padding: 20px;
+         
+         }
+
+        }
+}
+       
+.Low_navigattionbar{
+        display: flex;
+        background-color: $primaryBg;
+        font-weight: bold;
+        font-family: sans-serif;
+        justify-content: space-around;
+     
+        align-items: center;
+   .Low_nav{
+    display: flex;
+    background-color: $primaryBg;
+    .nav_item{
+      margin: 5px;
+      list-style: none;
+      padding: 10px 5px;
+      transition: 0.5s;
+      margin-left: 30px;
+      &:hover{
+         background-color: $textCol;
+         border-radius: 10px;
+         transform: 0.5s;
+         a{
+            color: $primaryBg;
+         }
+      }
+      a{
+         color: $secondCo;
+;
+         text-decoration: none;
+      }
+      
+    }
+   }
+}     
+        
+  .FeauterContainer{
+   margin-top: 20px;
+   align-items: center;
+   font-weight: bold;
+   font-family: serif;
+   grid-template-columns: repeat(3,1fr);
+   width: 80%;
+   margin: 20px auto;
+   background-color: brown;
+    .Featured-Catagores{
+    display: flex;
+    justify-content: center;
+  
+      .Feauter_container{
+       display: flex;
+       }
+       .fation_item{
+         margin: 10px;
+         background-color: red;
+         padding: 10px 15px;
+         border-radius: 10px;
+   
+       h2{
+         color: $seconderyCo;
+       }
+
+    }
+   }
+  }  
+
+  .container{
+   background-color: aqua;
+   display: flex;
+   grid-template-rows: repeat(4,1fr);
+  }
+
+                
+    
+       
+ 
